@@ -1,0 +1,140 @@
+.candidate-card {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2.2fr 0.8fr;
+  border: none;
+  border-radius: 20px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 7px #00000019;
+  opacity: 1;
+  width: 80%;
+  margin: auto;
+}
+
+.left-container {
+  padding: 5rem;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+}
+
+.left-container:after {
+  content: " ";
+  position: absolute;
+  border-right: 1px solid #C7C7C7;
+  top: 12%;
+  right: 0;
+  height: 75%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image-container {
+  align-items: center;
+}
+
+.avatar {
+  width: 117px;
+  border-radius: 50%;
+}
+
+.candidate-name {
+  color: #596E8D;
+  font-weight: 300;
+}
+
+.label {
+  background: transparent linear-gradient(180deg, #E8BB00 0%, #B4971E 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: 16px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.university {
+  color: #707070;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.studies {
+  color: #596E8D;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.middle-container {
+  padding: 40px;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon p {
+  margin-bottom: 0px;
+}
+
+.green {
+  color: #37D19A;
+}
+
+.title-experience {
+  color: #596e8d;
+  padding-left: 8px;
+  margin-bottom: 0px;
+}
+
+.content {
+  color: #707070;
+  padding-left: 30px;
+  line-height: 10px;
+}
+
+.price-title {
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0px 15px 0px 0px;
+}
+
+.right-container {
+  background: transparent linear-gradient(180deg, #F9F9FB 0%, #D8D8D8 100%) 0% 0% no-repeat padding-box;
+  padding: 0px 20px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.salary-exp {
+  padding: 10px 55px 10px 10px;
+}
+
+.see-more {
+  text-align: right;
+}
+
+.green-link {
+  color: #37D19A;
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.buttons {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.gray {
+  color: #C7C7C7
+}
+
+.right-menu {
+  text-align: right;
+}
+
+.line {
+  border: none;
+  border-left: 1px solid #C7C7C7;
+  height: 80%;
+  width: 1px;
+  margin: 60px;
+}
